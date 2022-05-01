@@ -1,16 +1,11 @@
-# demo_air_brother_prime
+# BrotherHackathon-2022-micro-challenge-015
 
 A new Flutter project.
 
-## Getting Started
+The goal of this project is to scan a document with DS-940DW and run FireBaseML text extraction to identify text in the image.
 
-This project is a starting point for a Flutter application.
+The scanning behavior is based on [Demo-Air-Brother-Prime](https://github.com/CodeMinion/Demo-Air-Brother-Prime), which uses the library 
+[air_brother](https://github.com/CodeMinion/air_brother) library.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The FireBase ML text extraction follows [this tutorial](https://blog.codemagic.io/text-recognition-using-firebase-ml-kit-flutter/). The tutorial's soure code is the 
+[flutter_vision](https://github.com/sbis04/flutter_vision) repo.
